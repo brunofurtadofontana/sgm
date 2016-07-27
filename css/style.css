@@ -1,0 +1,91 @@
+*{
+	margin:0 auto;
+	padding: 0 auto;
+}
+body{
+	font-family: Tahoma;
+	font-size: 18px;
+	background:url(http://7-themes.com/data_images/out/9/6797153-green-abstract.jpg); 
+	background: -webkit-linear-gradient(green, white); /* For Safari 5.1 to 6.0 */
+}
+.content{
+	width:90%;
+	margin:0 auto;
+	padding: 0 auto;
+}
+header{
+	width:100%;
+	height:100px;
+}
+.formulario{
+	width:50%;
+	border:1px solid #ccc;
+	height: auto;
+	border-radius:10px;
+}
+.formulario input[type=text],input[type=password]{
+	width:97%;
+	height:50px;
+	margin:5px 5px;
+	border-radius:5px;
+	border:none;
+	font-size: 20px;
+	padding:5px 5px;
+}
+.formulario input[type=submit]{
+	width:100px;
+	height:50px;
+	margin:5px 5px;
+	border-radius:5px;
+	border:none;
+	font-size: 20px;
+	padding:5px 5px;
+	background:#008B8B;
+	font-weight: bold;
+	cursor:pointer;
+}
+.cadastro{
+	font-size: 18px;
+}
+.cadastro input[type="text"]{
+	width:100%;
+	height:40px;
+	border-radius:5px;
+	margin:5px 5px;
+	border:none;
+	font-size:20px;
+	padding:5px 5px;
+}
+.cadastro textarea{
+	width:100%;
+	height:60px;
+	border-radius:5px;
+	margin:5px 5px;
+	border:none;
+	font-size:20px;
+	padding:5px 5px;
+}
+.cadastro select{
+	width:100%;
+	height:40px;
+	border-radius:5px;
+	margin:5px 5px;
+	border:none;
+	font-size:20px;
+}
+.cadastro input[type=submit]{
+	width:100px;
+	height:40px;
+	border-radius:5px;
+	margin:5px 5px;
+	border:none;
+	font-size:20px;
+	cursor: pointer;
+	background: #008B8B;
+	font-weight: bold;
+}
+fieldset{
+	width:50%;
+	font-size:20px;
+	font-weight: bold;
+}
